@@ -46,7 +46,7 @@ namespace lesson4_
             {
                 for (int j = 0; j < size; j++)
                 {
-                    inverted[i, j] = matr[i, size - j]; //! !!! out of range
+                    inverted[i, j] = matr[i, size - 1 - j]; //! !!! out of range
                 }
             }
             WriteMatrx(inverted);
